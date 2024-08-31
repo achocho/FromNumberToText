@@ -63,7 +63,7 @@ else if(Parts[i][1] =="0" && Parts[i][2]!=0)
 output+=Once[parseInt(Parts[i][2])-1]+" ";
 }else if(Parts[i][1] !="0" && Parts[i][2]==0)
 {
-output+="and "+tens[parseInt(Parts[i][1])-1]+" ";
+output+=tens[parseInt(Parts[i][1])-1]+" ";
 }
 }
 }else if(Parts[i].length==2)
